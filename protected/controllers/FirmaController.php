@@ -20,6 +20,7 @@ class FirmaController extends Controller
         
         public function actionCeypa()
 	{
+            $this->layout = '//layouts/empty';
 		$this->render('ceypa',array(
 		));
 	}
