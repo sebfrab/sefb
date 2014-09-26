@@ -1,0 +1,10 @@
+2014/09/25 10:38:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "index" solicitada.' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('firma')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sefb/firma/
+---
