@@ -27,8 +27,7 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
+		$this->layout='//layouts/construccion';
 		$this->render('index');
 	}
 
@@ -37,6 +36,7 @@ class SiteController extends Controller
 	 */
 	public function actionError()
 	{
+                $this->redirect(Yii::app()->homeUrl);
 		if($error=Yii::app()->errorHandler->error)
 		{
 			if(Yii::app()->request->isAjaxRequest)
@@ -51,6 +51,7 @@ class SiteController extends Controller
 	 */
 	public function actionContact()
 	{
+                $this->redirect(Yii::app()->homeUrl);
 		$model=new ContactForm;
 		if(isset($_POST['ContactForm']))
 		{
@@ -77,6 +78,7 @@ class SiteController extends Controller
 	 */
 	public function actionLogin()
 	{
+                $this->redirect(Yii::app()->homeUrl);
 		$model=new LoginForm;
 
 		// if it is ajax validation request
@@ -97,6 +99,7 @@ class SiteController extends Controller
 		// display the login form
 		$this->render('login',array('model'=>$model));
 	}
+        
 
 	/**
 	 * Logs out the current user and redirect to homepage.

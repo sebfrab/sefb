@@ -8,3 +8,78 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/sefb/firma/
 ---
+2014/10/13 11:25:35 [error] [exception.CException] exception 'CException' with message 'SiteController y sus behaviors no tienen un método o closure llamado "index".' in C:\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('index', Array)
+#1 C:\xampp\htdocs\sefb\protected\controllers\SiteController.php(53): SiteController->index()
+#2 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('contact')
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact')
+#8 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/sefb/site/contact
+---
+2014/10/13 11:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "asd"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('asd')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/asd
+---
+2014/10/13 11:26:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "css/print.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/css/print.css
+HTTP_REFERER=http://localhost/sefb/asd
+---
+2014/10/13 11:26:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "css/screen.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/css/screen.css
+HTTP_REFERER=http://localhost/sefb/asd
+---
+2014/10/13 11:26:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "css/form.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/css/form.css
+HTTP_REFERER=http://localhost/sefb/asd
+---
+2014/10/13 11:26:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "css/main.css"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/css/main.css
+HTTP_REFERER=http://localhost/sefb/asd
+---
+2014/10/13 11:26:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "asd"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('asd')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/asd
+---
+2014/10/13 11:26:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "asdasd/asdf"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('asdasd/asdf')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/asdasd/asdf
+---
