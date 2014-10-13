@@ -14,13 +14,13 @@
         color: #fff;
     }
     
-    #author>p{
+    #author>p{ 
     }
 </style>
 
 <a target="_blank" id="author" href="http://sefb.cl" title="¿ y por qué no ? / contacto@sefb.cl">
     <p>
         ¿y por qué no? 
-        <p style="font-weight: bold; font-size: 12px;">Sebasti&aacute;n Franco</p>
+        <span style="font-weight: bold; font-size: 12px;">Sebasti&aacute;n Franco</span>
     </p>
 </a>
