@@ -27,7 +27,7 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$this->layout='//layouts/construccion';
+		//$this->layout='//layouts/construccion';
 		$this->render('index');
 	}
 

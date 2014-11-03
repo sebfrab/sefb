@@ -83,3 +83,246 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/sefb/asdasd/asdf
 ---
+2014/11/03 09:40:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/mano_celular.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/mano_cel...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/images/mano_celular.png
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 09:40:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/mano_celular.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/mano_cel...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/images/mano_celular.png
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 09:40:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/mano_celular.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/mano_cel...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/images/mano_celular.png
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 09:42:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/jumbotron.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/jumbotro...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/images/jumbotron.jpg
+HTTP_REFERER=http://localhost/sefb/css/init.css
+---
+2014/11/03 10:25:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/web3.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/web3.png')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/images/web3.png
+HTTP_REFERER=http://localhost/sefb/css/init.css
+---
+2014/11/03 10:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/web3.png"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/web3.png')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/images/web3.png
+HTTP_REFERER=http://localhost/sefb/css/init.css
+---
+2014/11/03 11:39:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/creatividad.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/creativi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/images/creatividad.jpg
+HTTP_REFERER=http://localhost/sefb/css/init.css
+---
+2014/11/03 11:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/creatividad.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/creativi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/images/creatividad.jpg
+HTTP_REFERER=http://localhost/sefb/css/init.css
+---
+2014/11/03 14:54:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('viewportchecker...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 15:08:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('viewportchecker...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 15:08:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('viewportchecker...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 15:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('viewportchecker...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 15:09:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('viewportchecker...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 15:09:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('viewportchecker...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 15:10:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('viewportchecker...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 15:10:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('viewportchecker...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 15:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('viewportchecker...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 15:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('viewportchecker...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 15:11:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('viewportchecker...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 15:11:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('viewportchecker...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 15:11:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "jquery.viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('jquery.viewport...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/jquery.viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 15:11:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "jquery.viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('jquery.viewport...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/jquery.viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 15:11:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "jquery.viewportchecker.js"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('jquery.viewport...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/jquery.viewportchecker.js
+HTTP_REFERER=http://localhost/sefb/
+---
+2014/11/03 16:02:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/web.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/web.jpg')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/images/web.jpg
+HTTP_REFERER=http://localhost/sefb/css/init.css
+---
+2014/11/03 16:02:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/web.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/web.jpg')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/images/web.jpg
+HTTP_REFERER=http://localhost/sefb/css/init.css
+---
+2014/11/03 16:02:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/web2.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/web2.jpg')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/images/web2.jpg
+HTTP_REFERER=http://localhost/sefb/css/init.css
+---
+2014/11/03 16:02:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/web.jpg"' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/web.jpg')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\sefb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sefb/images/web.jpg
+HTTP_REFERER=http://localhost/sefb/css/init.css
+---

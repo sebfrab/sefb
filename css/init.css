@@ -1,0 +1,105 @@
+/* 
+    Document   : CSS init
+    Created on : 03-11-2014, 09:42:46 AM
+    Author     : Sebastián Franco Brantes
+    Description:
+        Diseño sitio web
+*/
+
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,200italic');
+
+html{
+    font-family: 'Source Sans Pro', sans-serif !important ;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif !important ;
+    background-color: #fff;
+}
+
+.menu{
+    min-height: 55px;
+}
+
+.navbar-default{
+    background-color: #fff !important;
+    border-bottom: 2px solid rgba(216, 216, 216, 0.3);
+}
+
+#jumbotron{
+    padding-top: 80px;
+    padding-bottom: 0px;
+    min-height: 800px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/web3.jpg');
+}
+
+p{
+    font-size: 16px;
+    color: #777;
+}
+
+
+.news{
+    height: 200px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news > h2{
+    text-align: center;
+    color: #fff;
+    vertical-align:middle;
+    height: 200px;
+    margin-top: 85px;
+}
+
+#compromiso{
+    background-image: url('../images/oceano.jpg');
+}
+
+#creatividad{
+    background-image: url('../images/creatividad.png');
+}
+
+#calidad{
+    background-image: url('../images/calidad.jpg');
+}
+
+
+/* Required */
+
+.hidden_animated{
+	opacity: 0;
+}
+
+.visible{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
