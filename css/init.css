@@ -70,15 +70,13 @@ p{
 }
 
 
-/* Required */
+        .os-animation{
+            opacity: 0;
+        }  
+        .os-animation.animated{
+            opacity: 1;
+        }   
 
-.hidden_animated{
-	opacity: 0;
-}
-
-.visible{
-	opacity: 1;
-}
 
 
 
