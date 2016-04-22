@@ -25,5 +25,12 @@ class FirmaController extends Controller
 		));
 	}
         
+        public function actionCeuch()
+	{
+            $this->layout = '//layouts/empty';
+		$this->render('ceuch',array(
+		));
+	}
+        
         
 }
